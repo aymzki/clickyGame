@@ -35,6 +35,6 @@ class App extends Component {
   //     </Wrapper>
   //   );
   }
-}
+
 
 export default App;
