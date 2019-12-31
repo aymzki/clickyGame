@@ -18,7 +18,7 @@ class App extends Component {
     navMessage: 'Click a puppy to start!',
 
     // contains an array of image urls
-    allCharacters: this.shuffleArray(),
+    allPuppies: this.shuffleArray(),
 
     // will track  each clicked element.
     wasClicked: [],
@@ -28,12 +28,12 @@ class App extends Component {
   };
 
   // binds the current this context to checkClicked to have access to the current state
-  // when passed down to the Character component
+  // when passed down to the Puppies component
   clickEvent = this.checkClicked.bind(this);
 
   // used to shuffle the array of images when the DOM loads, and when an image is clicked
   shuffleArray() {
-    // creates a copy of the current characters array to modify it by value, and not by reference
+    // creates a copy of the current Puppies array to modify it by value, and not by reference
     const newArr = images.slice();
 
     // will store the shuffled array
@@ -84,7 +84,7 @@ class App extends Component {
         highScore: highScore,
         navMsgColor: 'incorrect',
         navMessage: 'Incorrect guess!',
-        allCharacters: shuffled,
+        allPuppies: shuffled,
         wasClicked: [],
         shake: true
       });
@@ -96,7 +96,7 @@ class App extends Component {
       highScore: highScore,
       navMsgColor: 'correct',
       navMessage: 'You Guessed Correctly!',
-      allCharacters: shuffled,
+      allPuppies: shuffled,
       wasClicked: prevState,
       shake: false
     });
@@ -106,8 +106,8 @@ class App extends Component {
   }
 
   // renders score to the navbar.
-  // passes the randomized state.allCharacters array to Container to create a Character component for each image.
-  // passes the this.checkClicked down to container to pass to each Character component to be used for the click event.
+  // passes the randomized state.allPuppies array to Container to create a Puppies component for each image.
+  // passes the this.checkClicked down to container to pass to each Puppies component to be used for the click event.
   render() {
     const state = this.state;
     return (
@@ -121,7 +121,7 @@ class App extends Component {
         <Banner />
         <Container
           shake={state.shake}
-          characters={state.allCharacters}
+          puppies={state.allPuppies}
           clickEvent={this.clickEvent}
         />
         <Footer />
