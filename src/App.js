@@ -108,7 +108,7 @@ class App extends Component {
   // renders score to the navbar.
   // passes the randomized state.allPuppies array to Container to create a Puppies component for each image.
   // passes the this.checkClicked down to container to pass to each Puppies component to be used for the click event.
-  render() {
+  render() { 
     const state = this.state;
     return (
       <div>

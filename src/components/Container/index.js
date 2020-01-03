@@ -15,7 +15,7 @@ const Container = props => (
         : 'container d-flex flex-wrap justify-content-center'
     }
   >
-    {props.characters.map((a, i) => <Puppies name={a} key={i} clickEvent={props.clickEvent} />)}
+    {props.puppies.map((a, i) => <Puppies name={a} key={i} clickEvent={props.clickEvent} />)}
   </div>
 );
 
