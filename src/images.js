@@ -1,6 +1,5 @@
-import akita from './images/akita.jpg';
+
 import bernie from './images/bernie.jpg';
-import corgi from './images/corgi.jpg';
 import dachshund from './images/dachshund.jpg';
 import golden from './images/golden.jpg';
 import husky from './images/husky.jpg';
@@ -14,9 +13,7 @@ import shibe from './images/shibe.jpg';
 import westie from './images/westie.jpg';
 
 const images = [
-  akita,
   bernie,
-  corgi,
   dachshund,
   golden,
   husky,
