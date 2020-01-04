@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.css": "/clickyGame/static/css/main.d1b05096.chunk.css",
-    "main.js": "/clickyGame/static/js/main.0870d72d.chunk.js",
-    "main.js.map": "/clickyGame/static/js/main.0870d72d.chunk.js.map",
+    "main.css": "/clickyGame/static/css/main.067bd17c.chunk.css",
+    "main.js": "/clickyGame/static/js/main.037aeba6.chunk.js",
+    "main.js.map": "/clickyGame/static/js/main.037aeba6.chunk.js.map",
     "runtime-main.js": "/clickyGame/static/js/runtime-main.0780d4f1.js",
     "runtime-main.js.map": "/clickyGame/static/js/runtime-main.0780d4f1.js.map",
-    "static/js/2.dbbfeded.chunk.js": "/clickyGame/static/js/2.dbbfeded.chunk.js",
-    "static/js/2.dbbfeded.chunk.js.map": "/clickyGame/static/js/2.dbbfeded.chunk.js.map",
+    "static/js/2.3e9c28eb.chunk.js": "/clickyGame/static/js/2.3e9c28eb.chunk.js",
+    "static/js/2.3e9c28eb.chunk.js.map": "/clickyGame/static/js/2.3e9c28eb.chunk.js.map",
     "index.html": "/clickyGame/index.html",
-    "precache-manifest.da35ce4551a647334ff64a719d807cad.js": "/clickyGame/precache-manifest.da35ce4551a647334ff64a719d807cad.js",
+    "precache-manifest.ddabe3c3600faec9016e33f82b5781c1.js": "/clickyGame/precache-manifest.ddabe3c3600faec9016e33f82b5781c1.js",
     "service-worker.js": "/clickyGame/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/clickyGame/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.dbbfeded.chunk.js.LICENSE": "/clickyGame/static/js/2.dbbfeded.chunk.js.LICENSE",
-    "static/media/logo.svg": "/clickyGame/static/media/logo.5d5d9eef.svg"
+    "static/css/main.067bd17c.chunk.css.map": "/clickyGame/static/css/main.067bd17c.chunk.css.map",
+    "static/js/2.3e9c28eb.chunk.js.LICENSE": "/clickyGame/static/js/2.3e9c28eb.chunk.js.LICENSE",
+    "static/media/style.css": "/clickyGame/static/media/background.18a95bcc.jpg",
+    "static/media/bernie.jpg": "/clickyGame/static/media/bernie.7efffe70.jpg",
+    "static/media/dachshund.jpg": "/clickyGame/static/media/dachshund.4294ee1c.jpg",
+    "static/media/golden.jpg": "/clickyGame/static/media/golden.dfc3b1e2.jpg",
+    "static/media/husky.jpg": "/clickyGame/static/media/husky.9eda8c19.jpg",
+    "static/media/iggy.jpg": "/clickyGame/static/media/iggy.33fa0f20.jpg",
+    "static/media/norwich.jpg": "/clickyGame/static/media/norwich.ac7ddd24.jpg",
+    "static/media/pom.jpg": "/clickyGame/static/media/pom.3bb70abc.jpg",
+    "static/media/poodle.jpg": "/clickyGame/static/media/poodle.ef029a0c.jpg",
+    "static/media/pug.jpg": "/clickyGame/static/media/pug.ccfae7c8.jpg",
+    "static/media/sheltie.jpg": "/clickyGame/static/media/sheltie.62e60584.jpg",
+    "static/media/shibe.jpg": "/clickyGame/static/media/shibe.c28e7f5c.jpg",
+    "static/media/westie.jpg": "/clickyGame/static/media/westie.7a53e421.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0780d4f1.js",
-    "static/js/2.dbbfeded.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.0870d72d.chunk.js"
+    "static/js/2.3e9c28eb.chunk.js",
+    "static/css/main.067bd17c.chunk.css",
+    "static/js/main.037aeba6.chunk.js"
   ]
 }
