@@ -12,6 +12,8 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
